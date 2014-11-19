@@ -1,0 +1,32 @@
+vocabulary Vout{
+  type t_var isa nat
+  type node isa nat
+  partial f(t_var):node
+  invar(t_var)
+} 
+
+vocabulary V{
+  extern vocabulary Vout
+  type nlabel
+  label(node, nlabel)
+  t_label(t_var,nlabel)
+  edge(node, node)
+  t_edge(t_var,t_var)
+}
+
+theory T:V{
+   // only for inpattern variables
+   invar(x)  <=> ? y: y=f(x).
+   // injectivity
+	 invar(x) & invar(y) & x ~= y => f(x) ~= f(y). 
+   //preserve edges
+   invar(x) & invar(y) & t_edge(x,y) => edge(f(x), f(y)).
+   //preserve labels
+   invar(x) & t_label(x,lx) =>  label(f(x),lx).
+}
+
+procedure main(){
+  print(modelexpand(T,S,Vout)[1])
+}
+
+structure S:V{

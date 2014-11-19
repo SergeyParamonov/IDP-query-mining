@@ -1,0 +1,476 @@
+dataset enzymes iteration 5
+[('1', '2'), ('1', '10'), ('1', '2'), ('2', '3'), ('2', '11'), ('2', '12'), ('2', '3'), ('3', '4'), ('3', '12'), ('3', '13'), ('3', '4'), ('4', '5'), ('4', '6'), ('4', '13'), ('4', '16'), ('4', '5'), ('5', '6'), ('5', '7'), ('5', '17'), ('4', '6'), ('5', '6'), ('6', '7'), ('6', '18'), ('5', '7'), ('6', '7'), ('7', '8'), ('7', '14'), ('7', '18'), ('7', '8'), ('8', '9'), ('8', '14'), ('8', '15'), ('8', '9'), ('9', '14'), ('9', '15'), ('1', '10'), ('10', '11'), ('10', '12'), ('2', '11'), ('10', '11'), ('11', '12'), ('2', '12'), ('3', '12'), ('10', '12'), ('11', '12'), ('12', '13'), ('3', '13'), ('4', '13'), ('12', '13'), ('13', '16'), ('13', '17'), ('7', '14'), ('8', '14'), ('9', '14'), ('14', '15'), ('14', '18'), ('8', '15'), ('9', '15'), ('14', '15'), ('15', '18'), ('4', '16'), ('13', '16'), ('16', '17'), ('16', '18'), ('5', '17'), ('13', '17'), ('16', '17'), ('17', '18'), ('6', '18'), ('7', '18'), ('14', '18'), ('15', '18'), ('16', '18'), ('17', '18')]
+iterating length: 2
+  invar = { 1; 10 }
+frequent
+119 patterns left
+Time: 9
+  invar = { 8; 9 }
+frequent
+118 patterns left
+Time: 7
+  invar = { 10; 11 }
+frequent
+117 patterns left
+Time: 8
+mined all patterns of length: 2
+iterating length: 3
+  invar = { 1; 2; 10 }
+frequent
+115 patterns left
+Time: 12
+  invar = { 1; 2; 3 }
+frequent
+114 patterns left
+Time: 9
+  invar = { 1; 10; 11 }
+frequent
+113 patterns left
+Time: 14
+  invar = { 4; 5; 6 }
+frequent
+112 patterns left
+Time: 9
+  invar = { 8; 9; 15 }
+frequent
+111 patterns left
+Time: 9
+  invar = { 8; 14; 15 }
+frequent
+110 patterns left
+Time: 8
+  invar = { 13; 16; 17 }
+frequent
+109 patterns left
+Time: 7
+  invar = { 11; 12; 13 }
+frequent
+108 patterns left
+Time: 8
+mined all patterns of length: 3
+iterating length: 4
+  invar = { 1; 2; 3; 10 }
+frequent
+106 patterns left
+Time: 14
+  invar = { 1; 2; 3; 4 }
+frequent
+105 patterns left
+Time: 10
+  invar = { 1; 2; 10; 11 }
+frequent
+104 patterns left
+Time: 14
+  invar = { 1; 2; 3; 11 }
+frequent
+103 patterns left
+Time: 11
+  invar = { 3; 4; 5; 6 }
+frequent
+102 patterns left
+Time: 9
+  invar = { 4; 5; 6; 16 }
+frequent
+101 patterns left
+Time: 11
+  invar = { 4; 5; 6; 7 }
+frequent
+100 patterns left
+Time: 11
+  invar = { 7; 8; 9; 15 }
+frequent
+99 patterns left
+Time: 12
+  invar = { 1; 2; 12; 13 }
+frequent
+98 patterns left
+Time: 18
+  invar = { 1; 2; 11; 12 }
+frequent
+97 patterns left
+Time: 10
+  invar = { 5; 6; 7; 18 }
+frequent
+96 patterns left
+Time: 11
+  invar = { 5; 7; 14; 17 }
+frequent
+95 patterns left
+Time: 8
+  invar = { 6; 7; 14; 18 }
+frequent
+94 patterns left
+Time: 13
+  invar = { 8; 9; 14; 18 }
+frequent
+93 patterns left
+Time: 14
+  invar = { 13; 16; 17; 18 }
+frequent
+92 patterns left
+Time: 10
+  invar = { 8; 9; 14; 15 }
+frequent
+91 patterns left
+Time: 30
+  invar = { 3; 13; 16; 17 }
+frequent
+90 patterns left
+Time: 13
+  invar = { 3; 13; 16; 18 }
+frequent
+89 patterns left
+Time: 19
+  invar = { 7; 8; 9; 14 }
+frequent
+88 patterns left
+Time: 19
+  invar = { 9; 14; 15; 18 }
+frequent
+87 patterns left
+Time: 10
+  invar = { 4; 13; 16; 18 }
+frequent
+86 patterns left
+Time: 11
+  invar = { 10; 11; 12; 13 }
+frequent
+85 patterns left
+Time: 9
+  invar = { 11; 12; 13; 16 }
+frequent
+84 patterns left
+Time: 9
+mined all patterns of length: 4
+iterating length: 5
+  invar = { 1; 2; 3; 4; 5 }
+frequent
+82 patterns left
+Time: 13
+  invar = { 1; 2; 3; 4; 10 }
+frequent
+81 patterns left
+Time: 15
+  invar = { 1; 2; 3; 4; 11 }
+frequent
+80 patterns left
+Time: 14
+  invar = { 1; 2; 3; 10; 11 }
+frequent
+79 patterns left
+Time: 18
+  invar = { 2; 3; 4; 11; 16 }
+frequent
+78 patterns left
+Time: 15
+  invar = { 3; 4; 5; 6; 16 }
+frequent
+77 patterns left
+Time: 10
+  invar = { 2; 3; 4; 5; 6 }
+frequent
+76 patterns left
+Time: 12
+  invar = { 4; 5; 6; 7; 16 }
+frequent
+75 patterns left
+Time: 14
+  invar = { 5; 7; 8; 9; 15 }
+frequent
+74 patterns left
+Time: 13
+  invar = { 3; 4; 6; 16; 17 }
+frequent
+73 patterns left
+Time: 13
+  invar = { 2; 3; 4; 16; 17 }
+frequent
+72 patterns left
+Time: 24
+  invar = { 2; 3; 11; 13; 16 }
+frequent
+71 patterns left
+Time: 16
+  invar = { 2; 3; 4; 5; 13 }
+frequent
+70 patterns left
+Time: 12
+  invar = { 4; 5; 6; 16; 17 }
+frequent
+69 patterns left
+Time: 15
+  invar = { 2; 3; 4; 13; 16 }
+frequent
+68 patterns left
+Time: 19
+  invar = { 3; 4; 5; 6; 17 }
+frequent
+67 patterns left
+Time: 11
+  invar = { 2; 3; 4; 11; 13 }
+frequent
+66 patterns left
+Time: 17
+  invar = { 5; 6; 7; 14; 17 }
+frequent
+65 patterns left
+Time: 13
+  invar = { 5; 6; 7; 8; 14 }
+frequent
+64 patterns left
+Time: 14
+  invar = { 5; 6; 7; 8; 15 }
+frequent
+63 patterns left
+Time: 13
+  invar = { 1; 2; 3; 11; 13 }
+frequent
+62 patterns left
+Time: 13
+  invar = { 2; 3; 13; 16; 17 }
+frequent
+61 patterns left
+Time: 17
+  invar = { 5; 6; 7; 14; 15 }
+frequent
+60 patterns left
+Time: 18
+  invar = { 5; 7; 8; 9; 14 }
+frequent
+59 patterns left
+Time: 23
+  invar = { 7; 8; 9; 14; 15 }
+frequent
+58 patterns left
+Time: 69
+  invar = { 4; 5; 7; 13; 16 }
+frequent
+57 patterns left
+Time: 16
+  invar = { 4; 5; 13; 16; 17 }
+frequent
+56 patterns left
+Time: 20
+  invar = { 4; 5; 6; 7; 8 }
+frequent
+55 patterns left
+Time: 16
+  invar = { 4; 5; 6; 7; 17 }
+frequent
+54 patterns left
+Time: 14
+  invar = { 4; 5; 6; 13; 16 }
+frequent
+53 patterns left
+Time: 14
+  invar = { 4; 6; 13; 16; 17 }
+frequent
+52 patterns left
+Time: 15
+  invar = { 2; 3; 4; 13; 17 }
+frequent
+51 patterns left
+Time: 18
+  invar = { 3; 4; 13; 16; 17 }
+frequent
+50 patterns left
+Time: 17
+  invar = { 3; 4; 5; 13; 17 }
+frequent
+49 patterns left
+Time: 19
+  invar = { 3; 4; 5; 13; 16 }
+frequent
+48 patterns left
+Time: 19
+  invar = { 1; 2; 10; 12; 13 }
+frequent
+47 patterns left
+Time: 21
+  invar = { 1; 2; 12; 13; 16 }
+frequent
+46 patterns left
+Time: 25
+  invar = { 1; 2; 11; 12; 13 }
+frequent
+45 patterns left
+Time: 15
+  invar = { 1; 10; 11; 12; 13 }
+frequent
+44 patterns left
+Time: 13
+  invar = { 1; 10; 12; 13; 16 }
+frequent
+43 patterns left
+Time: 19
+  invar = { 3; 4; 12; 13; 17 }
+frequent
+42 patterns left
+Time: 20
+  invar = { 3; 4; 12; 13; 16 }
+frequent
+41 patterns left
+Time: 20
+  invar = { 3; 12; 13; 16; 17 }
+frequent
+40 patterns left
+Time: 13
+  invar = { 10; 11; 12; 13; 16 }
+frequent
+39 patterns left
+Time: 10
+  invar = { 2; 11; 12; 13; 16 }
+frequent
+38 patterns left
+Time: 15
+  invar = { 2; 12; 13; 16; 17 }
+frequent
+37 patterns left
+Time: 13
+  invar = { 2; 3; 12; 13; 16 }
+frequent
+36 patterns left
+Time: 18
+  invar = { 2; 3; 4; 12; 13 }
+frequent
+35 patterns left
+Time: 23
+  invar = { 8; 9; 14; 15; 18 }
+frequent
+34 patterns left
+Time: 69
+  invar = { 7; 8; 9; 14; 18 }
+frequent
+33 patterns left
+Time: 28
+  invar = { 7; 8; 14; 15; 18 }
+frequent
+32 patterns left
+Time: 40
+  invar = { 4; 5; 6; 7; 18 }
+frequent
+31 patterns left
+Time: 18
+  invar = { 5; 6; 7; 8; 18 }
+frequent
+30 patterns left
+Time: 12
+  invar = { 5; 6; 7; 14; 18 }
+frequent
+29 patterns left
+Time: 14
+  invar = { 4; 5; 7; 16; 18 }
+frequent
+28 patterns left
+Time: 11
+  invar = { 4; 5; 16; 17; 18 }
+frequent
+27 patterns left
+Time: 17
+  invar = { 5; 6; 7; 17; 18 }
+frequent
+26 patterns left
+Time: 17
+  invar = { 5; 7; 14; 17; 18 }
+frequent
+25 patterns left
+Time: 12
+  invar = { 4; 6; 13; 17; 18 }
+frequent
+24 patterns left
+Time: 12
+  invar = { 4; 13; 16; 17; 18 }
+frequent
+23 patterns left
+Time: 17
+  invar = { 3; 13; 16; 17; 18 }
+frequent
+22 patterns left
+Time: 13
+  invar = { 3; 4; 13; 17; 18 }
+frequent
+21 patterns left
+Time: 21
+  invar = { 11; 12; 13; 17; 18 }
+frequent
+20 patterns left
+Time: 9
+  invar = { 12; 13; 16; 17; 18 }
+frequent
+19 patterns left
+Time: 14
+mined all patterns of length: 5
+iterating length: 6
+  invar = { 1; 2; 3; 4; 5; 10 }
+frequent
+17 patterns left
+Time: 20
+  invar = { 1; 2; 3; 4; 10; 11 }
+frequent
+16 patterns left
+Time: 21
+  invar = { 1; 2; 3; 4; 5; 11 }
+frequent
+15 patterns left
+Time: 17
+  invar = { 1; 2; 3; 4; 10; 16 }
+frequent
+14 patterns left
+Time: 19
+  invar = { 2; 3; 4; 5; 11; 16 }
+frequent
+13 patterns left
+Time: 17
+  invar = { 2; 3; 4; 5; 6; 11 }
+frequent
+12 patterns left
+Time: 14
+  invar = { 2; 3; 4; 5; 6; 16 }
+frequent
+11 patterns left
+Time: 14
+  invar = { 1; 2; 3; 4; 5; 6 }
+frequent
+10 patterns left
+Time: 15
+  invar = { 2; 3; 4; 5; 7; 16 }
+frequent
+9 patterns left
+Time: 14
+  invar = { 1; 2; 3; 4; 5; 7 }
+frequent
+8 patterns left
+Time: 14
+  invar = { 2; 3; 4; 5; 6; 13 }
+frequent
+7 patterns left
+Time: 20
+  invar = { 3; 4; 5; 6; 13; 16 }
+frequent
+6 patterns left
+Time: 22
+  invar = { 1; 2; 3; 4; 5; 13 }
+frequent
+5 patterns left
+Time: 20
+  invar = { 3; 4; 5; 6; 16; 17 }
+frequent
+4 patterns left
+Time: 18
+  invar = { 1; 2; 3; 4; 16; 17 }
+frequent
+3 patterns left
+Time: 30
+  invar = { 1; 2; 3; 10; 13; 16 }
+frequent
+2 patterns left
+Time: 29
+  invar = { 1; 2; 3; 10; 11; 13 }
+frequent
+1 patterns left
+Time: 30
+  invar = { 1; 2; 3; 11; 13; 16 }
+frequent
+0 patterns left
+Time: 21
+mined specified number of patterns... aborting

@@ -1,0 +1,7 @@
+dataset: bloodbarr iteration: 1
+PID 30271
+[('1', '2'), ('2', '3'), ('2', '4')]
+iterating...
+  invar = { 1; 2; 3; 4 }
+Time: 395
+  invar = { 1; 2; 3; 4 }

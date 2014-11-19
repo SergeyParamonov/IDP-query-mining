@@ -1,0 +1,44 @@
+vocabulary V{
+  type node isa nat
+  type pnode isa nat
+  type label
+  pattern(pnode,pnode)
+  t_edge(node,node)
+  f(pnode):node
+ partial g(node):pnode
+  p_label(pnode,label)
+  label(node, label)
+  path(node,node)
+  invar(node)
+} 
+theory T:V{
+  // edge preservation
+  ! x y: invar(x) & invar(y) & t_edge(x, y) => pattern(g(x), g(y)).   
+  ! x y: pattern(x, y)                      => invar(f(x)) & invar(f(y)) & t_edge(f(x), f(y)).
+  // and labels too
+  ! x l: invar(x) & label(x,l)   => p_label(g(x), l).
+  ! x l: pnode(x) & p_label(x,l) => label(f(x), l).
+  // injectivity
+  ! x y: x ~= y => f(x) ~= f(y). 
+  invar(x) <=> ?y: y = g(x).
+  ! x y: invar(x) & invar(y) & x ~= y => g(x) ~= g(y).
+  // inverse-property
+  ! x : g(f(x)) = x.
+
+  { 
+   path(x,y) <- t_edge(x,y) & invar(x) & invar(y).
+   path(y,x) <- path(x,y).
+   path(x,y) <- ?z: path(x,z) & t_edge(z,y) & invar(y). 
+  }
+  !x y : x ~= y & invar(x) & invar(y) => path(x,y).
+
+  ?LENGTH_OF_PATTERN x: invar(x). 
+  // DO NOT DELETE THIS LINE NOGOODS
+}
+
+
+procedure main(){
+  print(modelexpand(T,S,V)[1])
+}
+
+structure S:V{

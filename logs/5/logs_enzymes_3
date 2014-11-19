@@ -1,0 +1,156 @@
+dataset enzymes iteration 3
+[('1', '2'), ('1', '9'), ('1', '2'), ('2', '3'), ('2', '8'), ('2', '3'), ('3', '4'), ('3', '11'), ('3', '4'), ('4', '5'), ('4', '10'), ('4', '12'), ('4', '5'), ('5', '11'), ('5', '15'), ('6', '7'), ('6', '14'), ('6', '32'), ('6', '33'), ('6', '7'), ('7', '13'), ('7', '14'), ('7', '26'), ('7', '27'), ('2', '8'), ('8', '9'), ('1', '9'), ('8', '9'), ('9', '10'), ('4', '10'), ('9', '10'), ('10', '11'), ('3', '11'), ('5', '11'), ('10', '11'), ('11', '12'), ('4', '12'), ('11', '12'), ('12', '34'), ('7', '13'), ('13', '14'), ('13', '32'), ('13', '39'), ('13', '48'), ('6', '14'), ('7', '14'), ('13', '14'), ('14', '45'), ('14', '46'), ('5', '15'), ('15', '17'), ('15', '36'), ('16', '31'), ('16', '50'), ('15', '17'), ('17', '23'), ('17', '28'), ('17', '34'), ('18', '19'), ('18', '24'), ('18', '29'), ('18', '19'), ('19', '25'), ('19', '30'), ('20', '21'), ('20', '33'), ('20', '40'), ('20', '21'), ('21', '22'), ('21', '33'), ('21', '39'), ('21', '22'), ('22', '27'), ('17', '23'), ('23', '28'), ('23', '36'), ('18', '24'), ('24', '29'), ('24', '32'), ('24', '37'), ('19', '25'), ('25', '28'), ('25', '30'), ('25', '38'), ('25', '49'), ('7', '26'), ('26', '31'), ('26', '50'), ('7', '27'), ('22', '27'), ('17', '28'), ('23', '28'), ('25', '28'), ('28', '36'), ('18', '29'), ('24', '29'), ('29', '32'), ('29', '37'), ('19', '30'), ('25', '30'), ('30', '38'), ('30', '44'), ('16', '31'), ('26', '31'), ('31', '35'), ('31', '45'), ('31', '50'), ('6', '32'), ('13', '32'), ('24', '32'), ('29', '32'), ('32', '43'), ('6', '33'), ('20', '33'), ('21', '33'), ('33', '39'), ('12', '34'), ('17', '34'), ('34', '36'), ('31', '35'), ('35', '50'), ('15', '36'), ('23', '36'), ('28', '36'), ('34', '36'), ('36', '42'), ('24', '37'), ('29', '37'), ('37', '38'), ('37', '43'), ('25', '38'), ('30', '38'), ('37', '38'), ('38', '49'), ('13', '39'), ('21', '39'), ('33', '39'), ('39', '40'), ('20', '40'), ('39', '40'), ('40', '41'), ('40', '41'), ('41', '46'), ('36', '42'), ('42', '47'), ('32', '43'), ('37', '43'), ('43', '48'), ('30', '44'), ('44', '47'), ('44', '49'), ('14', '45'), ('31', '45'), ('45', '50'), ('14', '46'), ('41', '46'), ('42', '47'), ('44', '47'), ('13', '48'), ('43', '48'), ('25', '49'), ('38', '49'), ('44', '49'), ('16', '50'), ('26', '50'), ('31', '50'), ('35', '50'), ('45', '50')]
+iterating length: 2
+  invar = { 1; 2 }
+frequent
+119 patterns left
+Time: 13
+  invar = { 18; 19 }
+frequent
+118 patterns left
+Time: 31
+  invar = { 5; 15 }
+frequent
+117 patterns left
+Time: 33
+mined all patterns of length: 2
+iterating length: 3
+  invar = { 1; 2; 8 }
+frequent
+115 patterns left
+Time: 18
+  invar = { 15; 17; 23 }
+frequent
+114 patterns left
+Time: 62
+  invar = { 6; 7; 26 }
+frequent
+113 patterns left
+Time: 212
+  invar = { 5; 15; 17 }
+frequent
+112 patterns left
+Time: 156
+  invar = { 7; 26; 27 }
+frequent
+111 patterns left
+Time: 83
+  invar = { 18; 24; 29 }
+frequent
+110 patterns left
+Time: 25
+  invar = { 7; 13; 14 }
+frequent
+109 patterns left
+Time: 11
+mined all patterns of length: 3
+iterating length: 4
+  invar = { 1; 2; 3; 8 }
+frequent
+107 patterns left
+Time: 14
+  invar = { 6; 7; 13; 26 }
+frequent
+106 patterns left
+Time: 815
+  invar = { 18; 19; 24; 25 }
+frequent
+105 patterns left
+Time: 110
+  invar = { 3; 4; 5; 15 }
+frequent
+104 patterns left
+Time: 1310
+  invar = { 5; 15; 17; 23 }
+frequent
+103 patterns left
+Time: 698
+  invar = { 1; 2; 3; 4 }
+frequent
+102 patterns left
+Time: 20
+  invar = { 4; 5; 15; 17 }
+frequent
+101 patterns left
+Time: 3840
+  invar = { 6; 7; 26; 27 }
+frequent
+100 patterns left
+Time: 1404
+  invar = { 7; 13; 27; 48 }
+frequent
+99 patterns left
+Time: 1994
+  invar = { 7; 26; 27; 31 }
+frequent
+98 patterns left
+Time: 985
+  invar = { 1; 2; 8; 9 }
+frequent
+97 patterns left
+Time: 24
+  invar = { 6; 7; 13; 32 }
+frequent
+96 patterns left
+Time: 441
+  invar = { 6; 7; 14; 26 }
+frequent
+95 patterns left
+Time: 390
+  invar = { 6; 7; 13; 14 }
+frequent
+94 patterns left
+Time: 13
+  invar = { 15; 17; 23; 34 }
+frequent
+93 patterns left
+Time: 49
+  invar = { 19; 25; 30; 44 }
+frequent
+92 patterns left
+Time: 60
+  invar = { 7; 26; 31; 50 }
+frequent
+91 patterns left
+Time: 82
+  invar = { 20; 33; 39; 40 }
+frequent
+90 patterns left
+Time: 40
+  invar = { 18; 24; 29; 37 }
+frequent
+89 patterns left
+Time: 62
+  invar = { 13; 32; 39; 48 }
+frequent
+88 patterns left
+Time: 232
+  invar = { 13; 32; 43; 48 }
+frequent
+87 patterns left
+Time: 225
+  invar = { 5; 15; 17; 36 }
+frequent
+86 patterns left
+Time: 320
+mined all patterns of length: 4
+iterating length: 5
+  invar = { 1; 2; 3; 4; 5 }
+frequent
+84 patterns left
+Time: 27
+  invar = { 4; 5; 15; 17; 23 }
+frequent
+83 patterns left
+Time: 16221
+  invar = { 1; 2; 3; 4; 8 }
+frequent
+82 patterns left
+Time: 21
+  invar = { 2; 3; 4; 5; 15 }
+frequent
+81 patterns left
+Time: 433
+  invar = { 3; 4; 5; 15; 17 }
+frequent
+80 patterns left

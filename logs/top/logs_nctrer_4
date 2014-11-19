@@ -1,0 +1,13 @@
+dataset: nctrer iteration: 4
+PID 25546
+[('1', '6'), ('1', '2'), ('1', '9'), ('2', '3'), ('2', '8'), ('3', '4'), ('4', '5'), ('5', '6'), ('5', '7')]
+iterating...
+  invar = { 1; 2; 3; 4; 5; 6; 7; 9 }
+Time: 54
+iterating...
+  invar = { 1; 2; 3; 4; 5; 6; 7; 8 }
+Time: 46
+iterating...
+only #2 exist, terminating...
+  invar = { 1; 2; 3; 4; 5; 6; 7; 9 }
+  invar = { 1; 2; 3; 4; 5; 6; 7; 8 }

@@ -1,0 +1,97 @@
+dataset enzymes iteration 4
+[('1', '9'), ('1', '13'), ('1', '14'), ('1', '15'), ('1', '16'), ('2', '3'), ('2', '6'), ('2', '10'), ('2', '11'), ('2', '3'), ('3', '10'), ('3', '11'), ('4', '6'), ('4', '9'), ('4', '11'), ('4', '12'), ('5', '8'), ('5', '15'), ('5', '16'), ('2', '6'), ('4', '6'), ('6', '11'), ('6', '12'), ('7', '8'), ('7', '17'), ('7', '18'), ('5', '8'), ('7', '8'), ('8', '17'), ('8', '18'), ('1', '9'), ('4', '9'), ('9', '13'), ('9', '14'), ('2', '10'), ('3', '10'), ('10', '11'), ('2', '11'), ('3', '11'), ('4', '11'), ('6', '11'), ('10', '11'), ('11', '12'), ('4', '12'), ('6', '12'), ('11', '12'), ('1', '13'), ('9', '13'), ('13', '14'), ('1', '14'), ('9', '14'), ('13', '14'), ('14', '15'), ('1', '15'), ('5', '15'), ('14', '15'), ('15', '16'), ('1', '16'), ('5', '16'), ('15', '16'), ('7', '17'), ('8', '17'), ('17', '18'), ('7', '18'), ('8', '18'), ('17', '18')]
+iterating length: 2
+  invar = { 2; 3 }
+frequent
+119 patterns left
+Time: 7
+  invar = { 2; 10 }
+not frequent
+118 patterns left
+true
+infrequent iso
+true
+infrequent iso
+true
+infrequent iso
+true
+infrequent iso
+true
+infrequent iso
+true
+infrequent iso
+true
+infrequent iso
+true
+infrequent iso
+true
+infrequent iso
+true
+infrequent iso
+true
+infrequent iso
+true
+infrequent iso
+true
+infrequent iso
+true
+infrequent iso
+true
+infrequent iso
+Time: 56
+  invar = { 1; 13 }
+not frequent
+117 patterns left
+true
+infrequent iso
+true
+infrequent iso
+true
+infrequent iso
+Time: 53
+  invar = { 1; 9 }
+frequent
+116 patterns left
+Time: 6
+  invar = { 17; 18 }
+not frequent
+115 patterns left
+true
+infrequent iso
+true
+infrequent iso
+true
+infrequent iso
+true
+infrequent iso
+true
+infrequent iso
+Time: 53
+mined all patterns of length: 2
+iterating length: 3
+  invar = { 2; 3; 6 }
+frequent
+113 patterns left
+Time: 7
+mined all patterns of length: 3
+iterating length: 4
+mined all patterns of length: 4
+iterating length: 5
+mined all patterns of length: 5
+iterating length: 6
+mined all patterns of length: 6
+iterating length: 7
+mined all patterns of length: 7
+iterating length: 8
+mined all patterns of length: 8
+iterating length: 9
+mined all patterns of length: 9
+iterating length: 10
+mined all patterns of length: 10
+iterating length: 11
+mined all patterns of length: 11
+iterating length: 12
+mined all patterns of length: 12
+iterating length: 13
+mined all patterns of length: 13
+iterating length: 14

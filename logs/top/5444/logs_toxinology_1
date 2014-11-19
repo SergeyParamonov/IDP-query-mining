@@ -1,0 +1,7 @@
+dataset: toxinology iteration: 1
+PID 22902
+[('1', '2'), ('2', '3'), ('2', '4'), ('2', '5')]
+iterating...
+  invar = { 1; 2; 5 }
+Time: 51
+  invar = { 1; 2; 5 }

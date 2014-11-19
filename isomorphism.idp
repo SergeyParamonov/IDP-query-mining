@@ -1,0 +1,36 @@
+vocabulary V{
+  type node
+  type index
+  type pnode
+  type label
+  edge(index, node, node)
+  pattern(pnode,pnode)
+  f(pnode):node
+  g(node):pnode
+  p_label(pnode):label
+  n_label(index,node):label
+  matched:index
+  matched_node(node)
+} 
+theory T:V{
+  // edge preservation
+  ! x y: edge(matched, x, y) => pattern(g(x), g(y)).   
+  ! x y: pattern(x, y)       => edge(matched, f(x), f(y)).                               
+  // and labels too
+  ! x y: edge(matched, x, y) => n_label(matched, x)    = p_label(g(x)) & n_label(matched, y)    = p_label(g(y)). 
+  ! x y: pattern(x, y)       => n_label(matched, f(x)) = p_label(x)    & n_label(matched, f(y)) = p_label(y).
+  // injectivity
+  ! x y: x ~= y              => f(x) ~= f(y). 
+  ! x y: edge(matched, x, y) => matched_node(x).
+  ! x y: matched_node(x) & matched_node(y) & x ~= y => g(x) ~= g(y).
+  // inverse-property
+  ! x : g(f(x)) = x.
+}
+
+
+include <mx>
+procedure main(){
+  print(modelexpand(T,S,V)[1])
+}
+
+structure S:V{

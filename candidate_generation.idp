@@ -1,0 +1,45 @@
+vocabulary Vout{
+  type t_var isa nat
+  invar(t_var)
+} 
+
+vocabulary V{
+  extern vocabulary Vout
+  type graph
+  type node isa nat
+  edge(graph, node, node)
+  t_edge(t_var,t_var)
+  type label
+  t_label(t_var,label)
+	path(t_var,t_var)
+}
+
+theory T:V{
+	 // frequency
+  { 
+   path(x,y) <- t_edge(x,y) & invar(x) & invar(y).
+   path(y,x) <- path(x,y).
+   path(x,y) <- ?z: path(x,z) & t_edge(z,y) & invar(y). 
+  }
+  !x y : x ~= y & invar(x) & invar(y) => path(x,y).
+  // PATTERN_LENGTH DO NOT THIS AND DELETE EMPTY LINE
+  
+  // DO NOT DELETE THIS LINE NOGOODS
+  // END_OF_LEARNED_CLAUSES
+  
+  // INFREQUENT
+  // END_OF_INFRQNT_CLAUSES
+}
+
+//minimize out-nodes
+term out_nodes: V {
+    #{ x : ~invar(x) }
+}
+
+include <mx>
+include <table_utils>
+procedure main(){
+  print(modelexpand(T,S,Vout)[1])
+}
+
+structure S:V{

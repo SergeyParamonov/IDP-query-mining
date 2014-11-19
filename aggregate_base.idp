@@ -1,0 +1,16 @@
+vocabulary V{
+  type graph
+  threshold:int
+  pattern_in(graph)
+}
+
+theory T:V{
+   #{ graph : pattern_in(graph) } >= threshold.  // frequency
+}
+
+procedure main(){
+print(modelexpand(T,S,Vout)[1])
+}
+
+structure S:V{
+  threshold  = NUMBER
