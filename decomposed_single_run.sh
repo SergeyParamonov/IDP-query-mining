@@ -39,8 +39,8 @@ pid=$$
 echo "PID $pid"
 generated_files=generated/generated_files$pid/
 mkdir -p $generated_files
-python scripts/make_base_positive.py "candidate_generation.idp" $dataset "$generated_files/base.idp" #print the graph to output
 base=$generated_files/base.idp 
+python scripts/make_base_positive.py "candidate_generation.idp" $dataset "$base" #print the graph to output
 echo "}" >> $base # finishing the structure
 dataset_positive=$dataset_folder/$dataset
 

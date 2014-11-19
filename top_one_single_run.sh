@@ -49,8 +49,9 @@ echo "PID $pid"
 generated_files=generated/generated_files_${dataset}_$pid
 mkdir -p $generated_files
 
-python $scripts/make_base_positive.py "base.idp" $dataset "$generated_files/base.idp" #print the graph to output
-base_positive=$generated_files/base.idp
+base=base_top_one.idp
+python $scripts/make_base_positive.py "$base" $dataset "$generated_files/$base" #print the graph to output
+base_positive=$generated_files/$base
 python $scripts/set_threshold.py $threshold $base_positive
 dataset_positive=$dataset_folder/$dataset
 
