@@ -1,4 +1,4 @@
-Graph Pattern Mining using Logic Programming 
+Declarative Relational Query Mining
 ================
 ###by Sergey Paramonov, Matthijs van Leeuwen, Marc Denecker and Luc De Raedt
 
